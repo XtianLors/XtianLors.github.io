@@ -34,30 +34,31 @@
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="navbar">
-      <ul>
-        <li>
-          <a href=#contacto>Contacto</a>
-        </li>
-        <li>
-          <a href=#sobreMi>Sobre Mí</a>
-        </li>
-        <li>
-          <a href=#Noticias>Negocios</a>
-        </li>
-        <li>
-          <a href=#Visualizacion>Visualización</a>
-        </li>
-        <li>
-          <a href=#Economia>Economía</a>
-        </li>
-        <li>
-          <a href=#Proyectos>Proyectos</a>
-        </li>
-        <li>
-          <a href=#Finanzas>Finanzas</a>
-        </li>  
-      </ul>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+            
+          <ul>
+            <li>
+              <a class="navbar-item" href=#Contacto>Contacto</a>
+            </li>
+            <li>
+              <a class="navbar-item" href=#sobreMi>Sobre Mí</a>
+            </li>
+            <li>
+              <a class="navbar-item" href=#Noticias>Negocios</a>
+            </li>
+            <li>
+              <a class="navbar-item" href=#Visualizacion>Visualización</a>
+            </li>
+            <li>
+              <a class="navbar-item" href=#Economia>Economía</a>
+            </li>
+            <li>
+              <a class="navbar-item" href=#Proyectos>Proyectos</a>
+            </li>
+            <li>
+              <a class="navbar-item"href=#Finanzas>Finanzas</a>
+            </li>  
+          </ul>
     </nav>
 
     <!-- The flexible grid (content) -->
@@ -70,10 +71,15 @@
         </figure>
         <p class="has-text-primary">
           Soy un estudiante de Ciencia de Datos.
-        </p class="has-text-primary">
+        </p >
         <h3 class=subtitle >Sobre Mí</h3>
+        
+        <div class="box">
+        
         <p class="has-text-primary">Me apasionan los temas como democratización financiera e integración
           económica. Creo que los instrumentos financieros modernos podrían estar disponibles para todos los contribuidores del sistema fiscal.</p>
+        </div>
+        <div class="box">
         <p class="has-text-primary">
 <!--         One over square root of two (inline style):
           <math>
@@ -87,16 +93,33 @@
           
           La integración de estos servicios y productos financieros podrían incrementar y fortalecer el ingreso de una vivienda promedio en México.
         </p>
-
+        </div>
       </div>
       <div class="main">
-        <h2 class=title>Sobre Instrumentos Financieros Más Accesibles e Incluyentes</h2>
-        <h5 cllass=subtitle>Es importante definir un plazo de crecimiento y un instrumento financiero que sea cubierto por el salario mínimo, March 3, 2025</h5>
+        <!--<div class="box">
+          <h2 class=title>Sobre Instrumentos Financieros Más Accesibles e Incluyentes</h2>
+        </div>
+        <h5 class=subtitle>Es importante definir un plazo de crecimiento y un instrumento financiero que sea cubierto por el salario mínimo, March 3, 2025</h5>
+        <div class="fakeimg" style="height: 200px">Image</div>
+        <p class="has-text-primary">Mientras que la canasta y la vivienda se expanden por encima de la línea de bienestar social. El ahorro se vuelve cada vez más complejo y difícil de alcanzar.</p>
+        <p class="has-text-primary">
+          Un instrumento que permita a las finanzas personales y de aquellas personas que perciben la unidad de salario mínimo debe tener la capacidad de ser tokenizado. Es decir que se pueda gestionar en partes cada vez más pequeñas. El Contrato por diferencia brinda esta cualidad superlativa a los ETF's y derivados financieros.
+        </p>-->
+        <article class="message">
+  <div class="message-header">
+     <h2 class=title>Sobre Instrumentos Financieros Más Accesibles e Incluyentes</h2>
+    <button class="delete" aria-label="delete"></button>
+  </div>
+  <div class="message-body">
+	    <h5 class=subtitle>Es importante definir un plazo de crecimiento y un instrumento financiero que sea cubierto por el salario mínimo, March 3, 2025</h5>
         <div class="fakeimg" style="height: 200px">Image</div>
         <p class="has-text-primary">Mientras que la canasta y la vivienda se expanden por encima de la línea de bienestar social. El ahorro se vuelve cada vez más complejo y difícil de alcanzar.</p>
         <p class="has-text-primary">
           Un instrumento que permita a las finanzas personales y de aquellas personas que perciben la unidad de salario mínimo debe tener la capacidad de ser tokenizado. Es decir que se pueda gestionar en partes cada vez más pequeñas. El Contrato por diferencia brinda esta cualidad superlativa a los ETF's y derivados financieros.
         </p>
+  </div>
+</article>
+        
         <br/>
         <h2 class=title>Sobre los Contratos por Diferencias y los ETF.</h2>
         <h5 class=subtitle>Los contratos por diferencia como una alternativa a los ETF, March 3, 2025</h5>
@@ -119,48 +142,49 @@
     </div>
   </body>
   
-  
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img
-        src="https://bulma.io/assets/images/placeholders/1280x960.png"
-        alt="Placeholder image"
-      />
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-left">
-        <figure class="image is-48x48">
-          <img
-            src="https://bulma.io/assets/images/placeholders/96x96.png"
-            alt="Placeholder image"
-          />
-        </figure>
-      </div>
-      <div class="media-content">
-        <p class="title is-4">Cristian Daniel López Rios</p>
-        <p class="subtitle is-6">
-          <a href="https://x.com/CrisLr20">@CrisLr20</a>
-        </p>
-        <p class="subtitle is-6">
-          <a href="@CrissDan@geekdom.social">@CrissDan@geekdom.social</a>
-        </p>
-      </div>
+<section id=Contacto>
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-96x96px">
+        <img
+          src="https://bulma.io/assets/images/placeholders/1280x960.png"
+          alt="Placeholder image"
+        />
+      </figure>
     </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48">
+            <img
+              src="https://bulma.io/assets/images/placeholders/48x48.png"
+              alt="Placeholder image"
+            />
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Cristian Daniel López Rios</p>
+          <p class="subtitle is-6">
+            <a href="https://x.com/CrisLr20">@CrisLr20</a>
+          </p>
+          <p class="subtitle is-6">
+            <a href="@CrissDan@geekdom.social">@CrissDan@geekdom.social</a>
+          </p>
+        </div>
+      </div>
 
-    <div class="content">
-      Desafiando la inflación. <a href=crisdan_lori@outlook.com>crisdan_lori@outlook.com</a>. 
-      <br>
-      <a href="crisdalori@gmail.com">crisdalori@gmail.com</a>
-      <br>
-      <a href="https://github.com/XtianLors">#Programador</a>
-      <br />
-      <time datetime="2025-3-5">11:09 PM - 3 Mar 2025</time>
+      <div class="content">
+        Desafiando la inflación. <a href=crisdan_lori@outlook.com>crisdan_lori@outlook.com</a>. 
+        <br>
+        <a href="crisdalori@gmail.com">crisdalori@gmail.com</a>
+        <br>
+        <a href="https://github.com/XtianLors">#Programador</a>
+        <br />
+        <time datetime="2025-3-5">11:09 PM - 3 Mar 2025</time>
+      </div>
     </div>
   </div>
-</div>
+  </section>
  
   
   
