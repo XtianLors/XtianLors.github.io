@@ -24,7 +24,7 @@
     <script src="https://fred-wang.github.io/mathml.css/mspace.js"></script>
     <!-- Note -->
     <div style="background: yellow; padding: 5px">
-      <h4 style="text-align: center">Bienvenido al Blog de Cristian López</h4>
+      <h4 style="text-align: center">EN CONSTRUCCIÓN</h4>
     </div>
 
     <!-- Header -->
@@ -64,8 +64,9 @@
     <!-- The flexible grid (content) -->
     <div class="row">
       <div class="side">
-        <div class="box">
-          <h2 class=title>Blog de Cristian López</h2>
+        <div class="box--bulma-primary">
+          <h2 class=title>
+            <span class=has-background-primary-invert> Blog de Cristian López</h2>
         </div>
         <h5 class=subtitle>¿Quién soy?</h5>
         <figure class="image is-128x128">
@@ -164,11 +165,13 @@
       <h2 class=title>Notas</h2>
     </div>
   </body>
+    <br>
   
 <section id=Contacto>
+  <div class="block">
   <div class="card">
     <div class="card-image">
-      <figure class="image is- 128x128">
+      <figure class="image is-128x128">
         <img
           src="https://bulma.io/assets/images/placeholders/48x48.png"
           alt="Placeholder image"
@@ -210,10 +213,11 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
  
   
-  
+  <br>
  <section id=sobreMi>
     <!-- <h1>Sobre Mí</h1>
     <br>
@@ -222,7 +226,11 @@
     </p>  -->
     <article class="message is-link">
       <div class="message-header">
-         <h1 class="title is-1">Sobre Mí</h1>
+          
+            <h1 class="title is-1">
+              Sobre Mí
+            </h1>
+          
         <button class="delete" aria-label="delete"></button>
       </div>
       <div class="message-body">
@@ -234,7 +242,7 @@
   
   
  <br>
-
+ <div class=block>
   <section id=Negocios>
     <!--<h1>Análisis para Negocios</h1>
     <br>
@@ -308,61 +316,108 @@
     </article>
 
   </section>
+</div>
 
+<div class=block>
+    <section id=Visualizacion>
 
-  <section id=Visualizacion>
+      <article class="message is-link">
+        <div class="message-header">
+          <h1>Visualización de Datos</h1>
+          <button class="delete" aria-label="delete"></button>
+        </div>
+        <div class="message-body">
+            <br>
+            <p>
+            Proyectos con Processing, Tableau, GIST de R.
+            </p>
+        </div>
+      </article>
 
-      <h1>Visualización de Datos</h1>
-      <br>
-      <p>
-      Proyectos con Processing, Tableau, GIST de R.
-      </p>
-  </section>
+    </section>
+</div>
    
 
+    
   <section id=Economia>
-    
-      <h1>Proyectos de Econometría</h1>
-      <br>
-      <p>
-      Proyectos de econometría.
-      </p>
-  </section>
- 
-  
-  <section id=Proyectos>
-
-      <h1>Proyectos de Software</h1>
-      <br>
-      <p>
-      <h3>CLI para Data Engineering</h3>
-        <p> 
-          Con este CLI podrás desarrollar todo el ciclo de vida de un dato desde la extracción, almacenamiento y análisis.
-        </p>
-    
-        <p> 
-          Es importante tener herramientas que permitan automatizar el proceso y ciclo de vida de los datos.
-          Para ello, es necesario utilizar un procedimiento claro y efectivo para transformar datos en información.
-        </p>
-        <p> 
-          Como lo menciona <a href=https://github.com/XtianLors/DataPulseSystem>Data Pulse System</a>.
-        </p>
-        Se debe iniciar con herramientas libianas y sencillas que permitan dividir e incluso repartir tareas complejas.
-        <div class="fakeimg" style="height: 200px">
-          <img src="./assets/CLIProject.jpg" alt="A cli that allows to interact with data.">
+    <div class=block>
+      <article class="message is-link">
+        <div class="message-header">
+         <h1>Proyectos de Econometría</h1>
+          <button class="delete" aria-label="delete"></button>
         </div>
-      </p>
-  </section>  
+        <div class="message-body">
+            <br>
+            <p>
+            Proyectos de econometría.
+            </p>
+        </div>
+      </article>
+    </div> 
+  </section>
+ 
+  <br>
+  <section id=Proyectos>
+  <div class=block>
+    <article class="message is-link">
+      <div class="message-header">
+        <h1>Proyectos de Software</h1>
+        <button class="delete" aria-label="delete"></button>
+      </div>
+      <div class="message-body">
+        <h3 class=subttitle>CLI para Data Engineering</h3>     
+        <div class=block>
+          <p> 
+              Con este CLI podrás desarrollar todo el ciclo de vida de un dato desde la extracción, almacenamiento y análisis.
+          </p>
+        </div>
+        <div class=block>
+          <p> 
+            Es importante tener herramientas que permitan automatizar el proceso y ciclo de vida de los datos.
+            Para ello, es necesario utilizar un procedimiento claro y efectivo para transformar datos en información.
+          </p>
+        </div>
+        <div  class=block>
+          <p> 
+            Como lo menciona <a href=https://github.com/XtianLors/DataPulseSystem>Data Pulse System</a>.
+          </p>
+        </div>
+        <div class=block>
+        <p>
+            Se debe iniciar con herramientas libianas y sencillas que permitan dividir e incluso repartir tareas complejas.
+        </p>
+        </div>
+        <div class=block>
+          <p>
+            <div class="fakeimg" style="height: 200px">
+              <img src="./assets/CLIProject.jpg" alt="A cli that allows to interact with data.">
+            </div>
+          </p>
+        </div>
+          
+      </div>
+    </article>
+  </div>
+</section>  
  
 <br>
-<br>
-  <section id=Finanzas>
-       <h1>Acerca de Finanzas y Trading.</h1>
-      <br>
-      <p>
-      Proyectos de econometría.
-      </p>
-  </section>
+
+<section id=Finanzas>
+    <div class="block">
+      <article class="message is-link">
+        <div class="message-header">
+           <h1>Acerca de Finanzas y Trading.</h1>
+          <button class="delete" aria-label="delete"></button>
+        </div>
+        <div class="message-body">
+          <br>
+          <p>
+            Proyectos de econometría.
+          </p>  
+        </div>
+      </article>    
+    </div>
+</section>
  
       
       

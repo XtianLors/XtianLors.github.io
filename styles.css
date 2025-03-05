@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
   }
-  
+
+  .block:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+var(--bulma-box-primary)
+
   /* Style the body */
   body {
     font-family: Arial;
