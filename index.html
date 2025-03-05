@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio de Cristian Daniel López Rios</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,12 +18,13 @@
     <link rel="icon" href="assets/graphwithPieChartIco.jpg" />
     <link rel="apple-touch-icon" href="assets/graphwithPieChart.jpg" />
     <link rel="manifest" href="archive.json" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
   </head>
   <body>
     <script src="https://fred-wang.github.io/mathml.css/mspace.js"></script>
     <!-- Note -->
     <div style="background: yellow; padding: 5px">
-      <h4 style="text-align: center">Bienvenido</h4>
+      <h4 style="text-align: center">Bienvenido al Blog de Cristian López</h4>
     </div>
 
     <!-- Header -->
@@ -61,18 +63,18 @@
     <!-- The flexible grid (content) -->
     <div class="row">
       <div class="side">
-        <h2>Mí Visión</h2>
-        <h5>¿Quién soy?</h5>
-        <div class="fakeimg" style="height: 200px">
-          <img src="./assets/XtianLors_Busto.jpg" alt="XTIANLORS">
-        </div>
-        <p>
+        <h2 class=title>Mí Visión</h2>
+        <h5 class=subtitle>¿Quién soy?</h5>
+        <figure class="image is-128x128">
+          <img class="is-rounded"  src="./assets/XtianLors_Busto.jpg" alt="XTIANLORS">
+        </figure>
+        <p class="has-text-primary">
           Soy un estudiante de Ciencia de Datos.
-        </p>
-        <h3>Sobre Mí</h3>
-        <p>Me apasionan los temas como democratización financiera e integración
+        </p class="has-text-primary">
+        <h3 class=subtitle >Sobre Mí</h3>
+        <p class="has-text-primary">Me apasionan los temas como democratización financiera e integración
           económica. Creo que los instrumentos financieros modernos podrían estar disponibles para todos los contribuidores del sistema fiscal.</p>
-        <p>
+        <p class="has-text-primary">
 <!--         One over square root of two (inline style):
           <math>
             <mfrac>
@@ -88,19 +90,19 @@
 
       </div>
       <div class="main">
-        <h2>Sobre Instrumentos Financieros Más Accesibles e Incluyentes</h2>
-        <h5>Es importante definir un plazo de crecimiento y un instrumento financiero que sea cubierto por el salario mínimo, March 3, 2025</h5>
+        <h2 class=title>Sobre Instrumentos Financieros Más Accesibles e Incluyentes</h2>
+        <h5 cllass=subtitle>Es importante definir un plazo de crecimiento y un instrumento financiero que sea cubierto por el salario mínimo, March 3, 2025</h5>
         <div class="fakeimg" style="height: 200px">Image</div>
-        <p>Mientras que la canasta y la vivienda se expanden por encima de la línea de bienestar social. El ahorro se vuelve cada vez más complejo y difícil de alcanzar.</p>
-        <p>
+        <p class="has-text-primary">Mientras que la canasta y la vivienda se expanden por encima de la línea de bienestar social. El ahorro se vuelve cada vez más complejo y difícil de alcanzar.</p>
+        <p class="has-text-primary">
           Un instrumento que permita a las finanzas personales y de aquellas personas que perciben la unidad de salario mínimo debe tener la capacidad de ser tokenizado. Es decir que se pueda gestionar en partes cada vez más pequeñas. El Contrato por diferencia brinda esta cualidad superlativa a los ETF's y derivados financieros.
         </p>
         <br/>
-        <h2>Sobre los Contratos por Diferencias y los ETF.</h2>
-        <h5>Los contratos por diferencia como una alternativa a los ETF, March 3, 2025</h5>
+        <h2 class=title>Sobre los Contratos por Diferencias y los ETF.</h2>
+        <h5 class=subtitle>Los contratos por diferencia como una alternativa a los ETF, March 3, 2025</h5>
         <div class="fakeimg" style="height: 200px">Image</div>
-        <p>Los contratos por diferencia son instrumentos financieros altamente riesgosos. La participación que estos tienen en el mercado son alrededor del {} y representan una opción viable para aquellas personas cuyo ahorro puede ser variable con el tiempo y cuya fuerza de capitalización es mermado por el incremento a vivienda y canasta básica de alimentos.</p>
-        <p>
+        <p class="has-text-primary">Los contratos por diferencia son instrumentos financieros altamente riesgosos. La participación que estos tienen en el mercado son alrededor del {} y representan una opción viable para aquellas personas cuyo ahorro puede ser variable con el tiempo y cuya fuerza de capitalización es mermado por el incremento a vivienda y canasta básica de alimentos.</p>
+        <p class="has-text-primary">
           Los contratos por diferencia podrán ser operados por oficinas familiares o inclusive bancos locales que tendrán la organización, el personal y las operaciones reguladas y aprobadas por un organizmo regulatorio de instrumentos altamente riesgosos.
         </p>
         <div class="fakeimg" style="height: 60px">Image</div>
@@ -113,21 +115,52 @@
 
     <!-- Footer -->
     <div class="footer">
-      <h2>Notas</h2>
+      <h2 class=title>Notas</h2>
     </div>
   </body>
   
   
-  <section id=contacto>
-    <h1>Contacto</h1>
-    <br>
-    <p>
-    Soy Cristian Daniel López Rios.
-    <br>
+<div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img
+        src="https://bulma.io/assets/images/placeholders/1280x960.png"
+        alt="Placeholder image"
+      />
+    </figure>
+  </div>
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-48x48">
+          <img
+            src="https://bulma.io/assets/images/placeholders/96x96.png"
+            alt="Placeholder image"
+          />
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Cristian Daniel López Rios</p>
+        <p class="subtitle is-6">
+          <a href="https://x.com/CrisLr20">@CrisLr20</a>
+        </p>
+        <p class="subtitle is-6">
+          <a href="@CrissDan@geekdom.social">@CrissDan@geekdom.social</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="content">
+      Desafiando la inflación. <a href=crisdan_lori@outlook.com>crisdan_lori@outlook.com</a>. 
+      <br>
       <a href="crisdalori@gmail.com">crisdalori@gmail.com</a>
-    </p>
-  
-  </section>
+      <br>
+      <a href="https://github.com/XtianLors">#Programador</a>
+      <br />
+      <time datetime="2025-3-5">11:09 PM - 3 Mar 2025</time>
+    </div>
+  </div>
+</div>
  
   
   
@@ -141,10 +174,39 @@
  
 
   <section id=Negocios>
-    <h1>Negocios</h1>
+    <h1>Análisis para Negocios</h1>
     <br>
     <p>
-    Datos de Análisis Fundamental.
+  
+      <strong><h4>Noticias importantes</h4></strong>
+        <p>
+            
+            
+        </p>
+          
+          
+      <strong><h4>Costos de Electricidad</h4></strong>
+        <p>
+          
+          
+        </p>
+        
+        
+      <strong><h4>Costos de Insumos</h4></strong>
+        <p>
+          
+          
+        </p>
+        
+        
+      <strong><h4>Costos Aproximado por Actividad Económica</h4></strong>
+        <p>
+          
+          
+        </p>
+      
+      
+        
     </p>
   </section>
 
